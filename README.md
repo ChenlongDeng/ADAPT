@@ -1,5 +1,5 @@
 <div align="center">
-<h1>Enabling Discriminative Reasoning in Large Language Models for Legal Judgment Prediction[<a href="https://arxiv.org/abs/2406.19760">Paper</a>]</h1>
+<h1>Enabling Discriminative Reasoning in Large Language Models for Legal Judgment Prediction[<a href="https://arxiv.org/abs/2407.01964">Paper</a>]</h1>
 <img src="./imgs/ADAPT.png" width="90%" class="center">
 </div>
 
@@ -44,3 +44,14 @@ model_input_str = '\n'.join(case_input, prompt)
 
 
 ## Citation
+```
+@misc{deng2024enablingdiscriminativereasoningllms,
+      title={Enabling Discriminative Reasoning in LLMs for Legal Judgment Prediction}, 
+      author={Chenlong Deng and Kelong Mao and Yuyao Zhang and Zhicheng Dou},
+      year={2024},
+      eprint={2407.01964},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2407.01964}, 
+}
+```
