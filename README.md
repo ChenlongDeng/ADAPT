@@ -1,5 +1,5 @@
 <div align="center">
-<h1>Enabling Discriminative Reasoning in Large Language Models for Legal Judgment Prediction[<a href="https://arxiv.org/abs/2407.01964">Paper</a>]</h1>
+<h1>Enabling Discriminative Reasoning in LLMs for Legal Judgment Prediction[<a href="https://arxiv.org/abs/2407.01964">Paper</a>]</h1>
 <img src="./imgs/ADAPT.png" width="90%" class="center">
 </div>
 
