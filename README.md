@@ -45,13 +45,21 @@ model_input_str = '\n'.join(case_input, prompt)
 
 ## Citation
 ```
-@misc{deng2024enablingdiscriminativereasoningllms,
-      title={Enabling Discriminative Reasoning in LLMs for Legal Judgment Prediction}, 
-      author={Chenlong Deng and Kelong Mao and Yuyao Zhang and Zhicheng Dou},
-      year={2024},
-      eprint={2407.01964},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2407.01964}, 
+@article{DBLP:journals/corr/abs-2407-01964,
+  author       = {Chenlong Deng and
+                  Kelong Mao and
+                  Yuyao Zhang and
+                  Zhicheng Dou},
+  title        = {Enabling Discriminative Reasoning in LLMs for Legal Judgment Prediction},
+  journal      = {CoRR},
+  volume       = {abs/2407.01964},
+  year         = {2024},
+  url          = {https://doi.org/10.48550/arXiv.2407.01964},
+  doi          = {10.48550/ARXIV.2407.01964},
+  eprinttype    = {arXiv},
+  eprint       = {2407.01964},
+  timestamp    = {Fri, 09 Aug 2024 10:24:44 +0200},
+  biburl       = {https://dblp.org/rec/journals/corr/abs-2407-01964.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
 ```
