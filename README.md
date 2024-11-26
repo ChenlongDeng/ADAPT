@@ -1,5 +1,5 @@
 <div align="center">
-<h1>Enabling Discriminative Reasoning in LLMs for Legal Judgment Prediction[<a href="https://arxiv.org/abs/2407.01964">Paper</a>]</h1>
+<h1>Enabling Discriminative Reasoning in LLMs for Legal Judgment Prediction[<a href="https://aclanthology.org/2024.findings-emnlp.43/">Paper</a>]</h1>
 <img src="./imgs/ADAPT.png" width="90%" class="center">
 </div>
 
@@ -45,21 +45,22 @@ model_input_str = '\n'.join(case_input, prompt)
 
 ## Citation
 ```
-@article{DBLP:journals/corr/abs-2407-01964,
-  author       = {Chenlong Deng and
-                  Kelong Mao and
-                  Yuyao Zhang and
-                  Zhicheng Dou},
-  title        = {Enabling Discriminative Reasoning in LLMs for Legal Judgment Prediction},
-  journal      = {CoRR},
-  volume       = {abs/2407.01964},
-  year         = {2024},
-  url          = {https://doi.org/10.48550/arXiv.2407.01964},
-  doi          = {10.48550/ARXIV.2407.01964},
-  eprinttype    = {arXiv},
-  eprint       = {2407.01964},
-  timestamp    = {Fri, 09 Aug 2024 10:24:44 +0200},
-  biburl       = {https://dblp.org/rec/journals/corr/abs-2407-01964.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org}
+@inproceedings{deng-etal-2024-enabling,
+    title = "Enabling Discriminative Reasoning in {LLM}s for Legal Judgment Prediction",
+    author = "Deng, Chenlong  and
+      Mao, Kelong  and
+      Zhang, Yuyao  and
+      Dou, Zhicheng",
+    editor = "Al-Onaizan, Yaser  and
+      Bansal, Mohit  and
+      Chen, Yun-Nung",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2024",
+    month = nov,
+    year = "2024",
+    address = "Miami, Florida, USA",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.findings-emnlp.43",
+    pages = "784--796",
+    abstract = "Legal judgment prediction is essential for enhancing judicial efficiency. In this work, we identify that existing large language models (LLMs) underperform in this domain due to challenges in understanding case complexities and distinguishing between similar charges. To adapt LLMs for effective legal judgment prediction, we introduce the Ask-Discriminate-Predict (ADAPT) reasoning framework inspired by human judicial reasoning. ADAPT involves decomposing case facts, discriminating among potential charges, and predicting the final judgment. We further enhance LLMs through fine-tuning with multi-task synthetic trajectories to improve legal judgment prediction accuracy and efficiency under our ADAPT framework. Extensive experiments conducted on two widely-used datasets demonstrate the superior performance of our framework in legal judgment prediction, particularly when dealing with complex and confusing charges.",
 }
 ```
